@@ -1,0 +1,27 @@
+EXPERIMENT 1B: FILE SHARING WITHIN AN ORGANIZATION
+
+Aim:
+To share files between computers within an organization using an IP address.
+
+Commands:
+
+1. Check IP address:
+ipconfig
+
+2. Test connectivity with another computer:
+ping <IP_ADDRESS>
+
+3. Access the shared folder:
+\\<IP_ADDRESS>\<SHARED_FOLDER_NAME>
+
+Procedure:
+1. Create a folder on the host computer.
+2. Right-click the folder and select Properties.
+3. Open Sharing → Advanced Sharing.
+4. Enable Share this folder and configure permissions.
+5. Open Command Prompt and execute ipconfig to find the IPv4 address.
+6. Use ping to check connectivity with the other computer.
+7. On the second computer, open File Explorer and enter the shared folder path using the host computer's IP address.
+
+Result:
+File sharing within an organization was demonstrated using an IP address.
