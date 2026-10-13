@@ -1,0 +1,14 @@
+# DNS Commands
+
+nslookup www.google.com
+nslookup -query=MX example.com
+
+# HTTP Analysis
+
+Open the browser and visit:
+http://example.com
+
+# Wireshark Display Filters
+
+dns
+http
