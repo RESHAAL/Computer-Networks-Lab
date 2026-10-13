@@ -1,0 +1,20 @@
+Experiment: DNS Analysis
+
+Command: nslookup www.google.com
+
+Output:
+Server:  <DNS_SERVER>
+Address: <DNS_SERVER_IP>
+
+Non-authoritative answer:
+Name:    www.google.com
+Addresses: <RESOLVED_IP_ADDRESS>
+
+Command: ipconfig /flushdns
+
+Output:
+Successfully flushed the DNS Resolver Cache.
+
+Note:
+IP addresses and DNS server details may vary depending
+on the network and DNS configuration.
