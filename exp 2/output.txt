@@ -1,0 +1,6 @@
+$ gcc tcp_server.c -o tcp_server
+$ ./tcp_server
+
+TCP Server is waiting on port 8080...
+Client connected.
+Message from client: Hello Server!
