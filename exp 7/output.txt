@@ -1,0 +1,22 @@
+Experiment 7: Application Layer Packet Analysis
+
+Part A: DNS Analysis
+Command: nslookup www.google.com
+
+Observation:
+- DNS query and response packets captured.
+- Query name and query type observed.
+- Resolved IP address observed in the response.
+
+Part B: HTTP Analysis
+Website: http://example.com
+
+Observation:
+- HTTP Request Method: GET
+- HTTP Response Status: 200 OK (expected successful response)
+- Content-Type: text/html
+
+Result:
+DNS and HTTP packets were analyzed using Wireshark.
+
+Note: Actual output may vary depending on the network and server response.
