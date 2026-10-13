@@ -1,0 +1,26 @@
+Leaky Bucket Algorithm Simulation
+Enter bucket size (capacity): 5
+Enter outgoing rate: 2
+Enter number of packets (time units): 3
+
+Time unit 1:
+Enter number of incoming packets: 3
+Packets sent: 2
+Packets remaining in bucket: 1
+
+Time unit 2:
+Enter number of incoming packets: 5
+Bucket overflow! Packet loss = 1
+Packets sent: 2
+Packets remaining in bucket: 3
+
+Time unit 3:
+Enter number of incoming packets: 1
+Packets sent: 2
+Packets remaining in bucket: 2
+
+Draining remaining packets...
+Packets sent: 2
+Packets left in bucket: 0
+
+Simulation complete.
