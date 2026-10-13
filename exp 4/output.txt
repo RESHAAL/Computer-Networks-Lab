@@ -1,0 +1,5 @@
+$ gcc udp_server.c -o udp_server
+$ ./udp_server
+
+UDP Server waiting on port 8081...
+Message from client: Hello Server!
