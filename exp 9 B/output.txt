@@ -1,0 +1,21 @@
+Token Bucket Algorithm Simulation
+Enter bucket size (capacity): 5
+Enter token generation rate: 3
+Enter number of packets (time units): 3
+
+Time unit 1:
+Enter number of packets to send: 2
+Packets sent: 2
+Tokens left: 1
+
+Time unit 2:
+Enter number of packets to send: 4
+Only 4 tokens available, packets sent: 4, packets dropped: 0
+Tokens left: 0
+
+Time unit 3:
+Enter number of packets to send: 5
+Only 3 tokens available, packets sent: 3, packets dropped: 2
+Tokens left: 0
+
+Simulation complete.
