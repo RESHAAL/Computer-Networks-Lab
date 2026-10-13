@@ -1,0 +1,12 @@
+Client Terminal:
+
+$ gcc udp_client.c -o udp_client
+$ ./udp_client
+
+Enter message: Hello Server!
+Server reply: Hello from UDP Server!
+
+Server Terminal:
+
+UDP Server waiting on port 8081...
+Message from client: Hello Server!
