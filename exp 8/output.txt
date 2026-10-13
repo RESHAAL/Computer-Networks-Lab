@@ -1,0 +1,30 @@
+Experiment 8: Sliding Window Protocol (Go-Back-N)
+
+Enter number of frames to send (max 50): 5
+Enter window size: 3
+
+Sender window: [0] [1] [2]
+Sending frames...
+Sent frame: 0
+Sent frame: 1
+Sent frame: 2
+
+Simulating receiver...
+Received frame: 0, sending ACK: 1
+Received frame: 1, sending ACK: 2
+Received frame: 2, sending ACK: 3
+
+Did all frames receive correctly? (y/n): y
+
+Sender window: [3] [4]
+Sending frames...
+Sent frame: 3
+Sent frame: 4
+
+Simulating receiver...
+Received frame: 3, sending ACK: 4
+Received frame: 4, sending ACK: 5
+
+Did all frames receive correctly? (y/n): y
+
+All frames sent successfully!
