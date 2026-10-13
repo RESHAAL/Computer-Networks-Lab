@@ -1,0 +1,13 @@
+Client Terminal:
+
+$ gcc tcp_client.c -o tcp_client
+$ ./tcp_client
+
+Enter message: Hello Server!
+Server reply: Hello from TCP Server!
+
+Server Terminal:
+
+TCP Server is waiting on port 8080...
+Client connected.
+Message from client: Hello Server!
