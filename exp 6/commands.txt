@@ -1,0 +1,14 @@
+1. Display IP configuration:
+   ipconfig
+
+2. Find the IP address of a domain:
+   nslookup www.google.com
+
+3. Display cached DNS records:
+   ipconfig /displaydns
+
+4. Clear the DNS cache:
+   ipconfig /flushdns
+
+5. Test domain connectivity:
+   ping www.google.com
