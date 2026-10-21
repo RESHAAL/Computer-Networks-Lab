@@ -6,7 +6,7 @@ This repository contains practical implementations and experiments performed as 
 
 | Experiment | Practical Name | Files / Concepts |
 |---|---|---|
-| 1A |
+| 1A | Fundamental Elements of Computer Networking | README.md — Network topologies, transmission media, networking devices, RJ-45 connector and T568A/T568B color coding |
 | 1B | File Sharing Within an Organization | `commands.txt`, `README.md` — Windows network and folder sharing |
 | 2 | TCP Server | `tcp_server.c` — TCP socket programming |
 | 3 | TCP Client | `tcp_client.c` — TCP client-server communication |
@@ -125,7 +125,7 @@ Through these practicals, the repository demonstrates:
 
 ```text
 Computer-Networks-Practicals/
-├── 01A_File_Sharing/
+├── 01A_Fundamentals_of_Networking/
 ├── 01B_File_Sharing/
 ├── 02_TCP_Server/
 ├── 03_TCP_Client/
