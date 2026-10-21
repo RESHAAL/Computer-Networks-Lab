@@ -140,12 +140,5 @@ Computer-Networks-Practicals/
 └── README.md
 ```
 
-Each experiment folder contains the relevant program or commands, sample output where applicable, and a README explaining the practical.
-
-## 📌 Note
-
-This repository is intended for educational purposes and computer networking laboratory practice. The sample outputs are illustrative and may vary when programs are executed in different environments.
-
----
 
 **Subject:** Computer Networks Laboratory
